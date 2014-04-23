@@ -44,6 +44,7 @@ For testing purposes, I included two small tools:
   application, the pages will be eradicated from the fs cache.
   Specifying -n <number> will repeat the syscall the given number of
   times which can be useful in some circumstances (see below).
+  Specifying -r <rate> will flush page cache rate.
 * `cachestats` has three modes: In quiet mode (`-q`), the exit status
   is 0 (success) if the file is fully cached. In normal mode,
   the number of cached vs. not-cached pages is printed. In verbose
